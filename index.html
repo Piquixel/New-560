@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Piquixel | Accueil</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="icon/ico" href="images/ico_2019.ico" />
+    <script src="script.js" type="text/javascript"></script>
+</head>
+
+<nav id="nav">
+    <a href="javascript:void(0)" id="close" onclick="closeMenu()">&times;</a>
+    <div id="vids">
+        <div id="yt">
+            <a>YouTube</a>
+        </div>
+        <div id="tw">
+            <a>Twitch</a>
+        </div>
+    </div>
+    <center>
+        <a id="linked" class="linked" href="">Accueil</a>
+        <a id="vid" href="javascript:void(0)" onclick="openMenu()">Vidéos</a>
+        <a href="social/index.html">Réseaux</a>
+        <a href="">Plus</a>
+    </center>
+</nav>
+
+<body>
+    <img id="bg" src="Images/banner_2019.png" />
+    <div id="dark"></div>
+    <div id="home">
+        <div id="intro">
+            <p>Attention !
+                <br>
+                Toujours en dévelopement.
+            </p>
+            <a onclick="closeIntro()">&times;</a>
+        </div>
+        <img id="logo" onclick="openIntro()" src="Images/yt_2019.png" />
+        <div id="page1">
+            <p>Ici Piquixel!
+                <br>
+                Voici tout le contenu mis à votre disposition.
+            </p>
+        </div>
+        <div id="page2">
+            <center>
+                <div id="list">
+                    <li><a id="arch" onclick="openArchives()">Archives</a></li>
+                    <li><a>Les Sims</a></li>
+                    <li><a>Minecraft</a></li>
+                    <li><a>Undertale</a></li>
+                </div>
+            </center>
+        </div>
+        <div id="archives">
+            <p>Actuellement... Il n'y a rien.</p>
+        </div>
+    </div>
+    <div class="back"></div>
+    <footer>
+        <div></div>
+    </footer>
+</body>
+
+</html>
